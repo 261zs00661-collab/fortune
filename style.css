@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(135deg, #1a237e, #7b1fa2);
+  background-attachment: fixed;
+  color: #fdffff;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container{
+ width: 500px;
+ margin-right: auto;
+ margin-left: auto;
+ padding-top: 30px;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: #ffb300;
+  color: #333333;
+  border-style: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ff8f00;
+}
+
+input{
+  height: 20px;
+}
+
+#result-area{
+  margin-top: 20px;
+}
+
+.card{
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 10px;
+  padding: 10px 20px 20px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  border-top: 8px solid #999999;
+}
+
+.card.daikichi{border-top-color: #e53935;}
+.card.kichi{ border-top-color: #fb8c00}
+.card.chukichi{border-top-color: #fdd835;}
+.card.shokichi{ border-top-color: #43a047;}
+.card.kyo{border-top-color: #546e7a;}
+
+.card h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.lucky{
+  margin-top: 10px;
+}
+
+.color-box{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#tweet-area{
+  margin-top:15px;
+}
