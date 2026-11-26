@@ -7,10 +7,10 @@ body {
 }
 
 .container{
- width: 500px;
+ max-width: 500px;
  margin-right: auto;
  margin-left: auto;
- padding-top: 30px;
+ padding: 30px 15px 0 15px;
 }
 
 button {
@@ -27,6 +27,8 @@ button:hover{
 
 input{
   height: 20px;
+  width: 65%;
+  max-width: 300px;
 }
 
 #result-area{
